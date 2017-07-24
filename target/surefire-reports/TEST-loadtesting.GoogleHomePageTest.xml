@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="loadtesting.GoogleHomePageTest" time="3.958" errors="0" skipped="2">
+<testsuite tests="3" failures="1" name="loadtesting.GoogleHomePageTest" time="4.084" errors="0" skipped="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -76,7 +76,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
-	at loadtesting.GoogleHomePageTest.testSetUp(GoogleHomePageTest.java:28)
+	at loadtesting.GoogleHomePageTest.testSetUp(GoogleHomePageTest.java:26)
 Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
@@ -110,7 +110,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
   <testcase classname="loadtesting.GoogleHomePageTest" name="verifyGooglePageTittle" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="loadtesting.GoogleHomePageTest" name="tearDown" time="0">
+  <testcase classname="loadtesting.GoogleHomePageTest" name="tearDown" time="0.01">
     <skipped/>
   </testcase>
 </testsuite>
