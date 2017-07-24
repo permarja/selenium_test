@@ -6,4 +6,14 @@
       <class name="loadtesting.GoogleHomePageTest"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="loadtesting.GoogleHomePageTest">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="verifyGooglePageTittle"/>
+        </methods>
+      </class> <!-- loadtesting.GoogleHomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [loadtesting.GoogleHomePageTest] -->
