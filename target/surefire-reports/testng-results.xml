@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="loadtesting.GoogleHomePageTest" duration-ms="3432" started-at="2017-07-24T10:38:23Z" finished-at="2017-07-24T10:38:27Z">
+  <suite name="loadtesting.GoogleHomePageTest" duration-ms="3492" started-at="2017-07-24T11:12:19Z" finished-at="2017-07-24T11:12:23Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3432" started-at="2017-07-24T10:38:23Z" finished-at="2017-07-24T10:38:27Z">
+    <test name="Command line test" duration-ms="3492" started-at="2017-07-24T11:12:19Z" finished-at="2017-07-24T11:12:23Z">
       <class name="loadtesting.GoogleHomePageTest">
-        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="testSetUp" is-config="true" duration-ms="0" started-at="2017-07-24T11:38:23Z" finished-at="2017-07-24T11:38:23Z">
+        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="testSetUp" is-config="true" duration-ms="0" started-at="2017-07-24T12:12:20Z" finished-at="2017-07-24T12:12:20Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -24,7 +24,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
-	at loadtesting.GoogleHomePageTest.testSetUp(GoogleHomePageTest.java:23)
+	at loadtesting.GoogleHomePageTest.testSetUp(GoogleHomePageTest.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,11 +92,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="verifyGooglePageTittle" duration-ms="6" started-at="2017-07-24T11:38:27Z" finished-at="2017-07-24T11:38:27Z">
+        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="verifyGooglePageTittle" duration-ms="3" started-at="2017-07-24T12:12:23Z" finished-at="2017-07-24T12:12:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-24T11:38:27Z" finished-at="2017-07-24T11:38:27Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-24T12:12:23Z" finished-at="2017-07-24T12:12:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
