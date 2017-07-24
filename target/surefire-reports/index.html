@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-loadtesting.GoogleHomePageTest">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -146,16 +146,6 @@
       &lt;class name=&quot;loadtesting.GoogleHomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
-  &lt;test name=&quot;Command line test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;loadtesting.GoogleHomePageTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;testSetUp&quot;/&gt;
-          &lt;include name=&quot;verifyGooglePageTittle&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- loadtesting.GoogleHomePageTest --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Command line test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- loadtesting.GoogleHomePageTest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,9 +158,6 @@
             <ul>
               <li>
                 <span class="test-name">Command line test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Command line test(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyGooglePageTittle')
 data.setCell(0, 2, 'loadtesting.GoogleHomePageTest')
-data.setCell(0, 3, 3);
+data.setCell(0, 3, 1);
 window.suiteTableData['loadtesting.GoogleHomePageTest']= { tableData: data, tableDiv: 'times-div-loadtesting.GoogleHomePageTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-loadtesting.GoogleHomePageTest">
               </div> <!-- times-div-loadtesting.GoogleHomePageTest -->
             </div> <!-- times-div -->
@@ -240,7 +227,7 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyGooglePageTittle</span>
-                <span class="method-start">3474 ms</span>
+                <span class="method-start">3201 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="loadtesting.GoogleHomePageTest" time="4.384" errors="0" skipped="2">
+<testsuite tests="3" failures="1" name="loadtesting.GoogleHomePageTest" time="3.958" errors="0" skipped="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -36,8 +36,6 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
-    <property name="jpda.listen" value="true"/>
-    <property name="jpda.address" value="26354"/>
     <property name="user.home" value="C:\Users\japerezm"/>
     <property name="user.timezone" value="GMT+01:00"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -45,11 +43,10 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="japerezm"/>
     <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
-    <property name="maven.surefire.debug" value="-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=26354"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=loadtesting.GoogleHomePageTest -DforkMode=once -Dmaven.surefire.debug=-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=26354 -Djpda.listen=true -Djpda.address=26354 -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=loadtesting.GoogleHomePageTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="es"/>
@@ -62,7 +59,6 @@
     <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="forkMode" value="once"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
@@ -114,7 +110,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
   <testcase classname="loadtesting.GoogleHomePageTest" name="verifyGooglePageTittle" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="loadtesting.GoogleHomePageTest" name="tearDown" time="0.001">
+  <testcase classname="loadtesting.GoogleHomePageTest" name="tearDown" time="0">
     <skipped/>
   </testcase>
 </testsuite>

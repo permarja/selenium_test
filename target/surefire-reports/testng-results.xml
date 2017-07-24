@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="loadtesting.GoogleHomePageTest" duration-ms="3492" started-at="2017-07-24T11:12:19Z" finished-at="2017-07-24T11:12:23Z">
+  <suite name="loadtesting.GoogleHomePageTest" duration-ms="3209" started-at="2017-07-24T11:17:29Z" finished-at="2017-07-24T11:17:32Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3492" started-at="2017-07-24T11:12:19Z" finished-at="2017-07-24T11:12:23Z">
+    <test name="Command line test" duration-ms="3209" started-at="2017-07-24T11:17:29Z" finished-at="2017-07-24T11:17:32Z">
       <class name="loadtesting.GoogleHomePageTest">
-        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="testSetUp" is-config="true" duration-ms="0" started-at="2017-07-24T12:12:20Z" finished-at="2017-07-24T12:12:20Z">
+        <test-method status="FAIL" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@edf4efb]" name="testSetUp" is-config="true" duration-ms="0" started-at="2017-07-24T12:17:29Z" finished-at="2017-07-24T12:17:29Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -92,11 +92,11 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="verifyGooglePageTittle" duration-ms="3" started-at="2017-07-24T12:12:23Z" finished-at="2017-07-24T12:12:23Z">
+        <test-method status="SKIP" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@edf4efb]" name="verifyGooglePageTittle" duration-ms="1" started-at="2017-07-24T12:17:32Z" finished-at="2017-07-24T12:17:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-24T12:12:23Z" finished-at="2017-07-24T12:12:23Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@edf4efb]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-24T12:17:32Z" finished-at="2017-07-24T12:17:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
