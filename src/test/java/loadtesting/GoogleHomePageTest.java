@@ -24,7 +24,7 @@ public class GoogleHomePageTest {
         cap.setBrowserName("firefox");
         cap.setVersion("54.0");
         cap.setPlatform(org.openqa.selenium.Platform.LINUX);
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+        driver = new RemoteWebDriver(new URL("http://172.17.0.3:5555/wd/hub"), cap);
     }
 
     @Test
