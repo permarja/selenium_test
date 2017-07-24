@@ -20,10 +20,11 @@ public class GoogleHomePageTest {
     public void testSetUp() throws MalformedURLException {
 
         //driver = new FirefoxDriver();
-        DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setBrowserName("firefox");
-       
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+
+        DesiredCapabilities capability = DesiredCapabilities.firefox();
+        // Say you want a specific node to thread your request, just specify the node name (it must be running a selenium configuration though)
+        capability.setCapability("jenkins.nodeName", "(master)");
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
     }
 
     @Test
@@ -31,6 +32,7 @@ public class GoogleHomePageTest {
         //driver.navigate().to(appURL);
         //String getTitle = driver.getTitle();
         //Assert.assertEquals(getTitle, "Google");
+
         driver.get("http://www.google.es");
         Assert.assertEquals(driver.getTitle(), "Google");
     }
