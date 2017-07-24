@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="loadtesting.GoogleHomePageTest" duration-ms="5919" started-at="2017-07-24T07:36:48Z" finished-at="2017-07-24T07:36:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5919" started-at="2017-07-24T07:36:48Z" finished-at="2017-07-24T07:36:53Z">
+      <class name="loadtesting.GoogleHomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@3e6358]" name="testSetUp" is-config="true" duration-ms="3768" started-at="2017-07-24T08:36:48Z" finished-at="2017-07-24T08:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@3e6358]" name="verifyGooglePageTittle" duration-ms="1609" started-at="2017-07-24T08:36:51Z" finished-at="2017-07-24T08:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@3e6358]" name="tearDown" is-config="true" duration-ms="528" started-at="2017-07-24T08:36:53Z" finished-at="2017-07-24T08:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loadtesting.GoogleHomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- loadtesting.GoogleHomePageTest -->
+</testng-results>
