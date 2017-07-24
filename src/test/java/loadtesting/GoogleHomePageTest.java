@@ -20,7 +20,11 @@ public class GoogleHomePageTest {
     public void testSetUp() throws MalformedURLException {
 
         //driver = new FirefoxDriver();
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.chrome());
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setBrowserName("firefox");
+        cap.setVersion("54.0");
+        cap.setPlatform(org.openqa.selenium.Platform.LINUX);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
     }
 
     @Test
