@@ -3,7 +3,6 @@ package loadtesting;
 import java.net.MalformedURLException;
 import java.net.URL;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -23,8 +22,11 @@ public class GoogleHomePageTest {
 
         DesiredCapabilities capability = DesiredCapabilities.firefox();
         // Say you want a specific node to thread your request, just specify the node name (it must be running a selenium configuration though)
-        capability.setCapability("jenkins.nodeName", "(master)");
+        capability.setBrowserName("firefox");
+        
         driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+        
+        System.out.println("test");
     }
 
     @Test
