@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="loadtesting.GoogleHomePageTest" duration-ms="11470" started-at="2017-07-28T06:16:44Z" finished-at="2017-07-28T06:16:56Z">
+  <suite name="loadtesting.GoogleHomePageTest" duration-ms="19698" started-at="2017-07-31T08:22:54Z" finished-at="2017-07-31T08:23:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="11470" started-at="2017-07-28T06:16:44Z" finished-at="2017-07-28T06:16:56Z">
+    <test name="Command line test" duration-ms="19698" started-at="2017-07-31T08:22:54Z" finished-at="2017-07-31T08:23:13Z">
       <class name="loadtesting.GoogleHomePageTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="testSetUp" is-config="true" duration-ms="8921" started-at="2017-07-28T08:16:44Z" finished-at="2017-07-28T08:16:53Z">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="testSetUp" is-config="true" duration-ms="9714" started-at="2017-07-31T10:22:54Z" finished-at="2017-07-31T10:23:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="verifyGooglePageTittle" duration-ms="2064" started-at="2017-07-28T08:16:53Z" finished-at="2017-07-28T08:16:55Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="verifyGooglePageTittle" duration-ms="9445" started-at="2017-07-31T10:23:03Z" finished-at="2017-07-31T10:23:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="tearDown" is-config="true" duration-ms="440" started-at="2017-07-28T08:16:55Z" finished-at="2017-07-28T08:16:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loadtesting.GoogleHomePageTest@35f983a6]" name="tearDown" is-config="true" duration-ms="514" started-at="2017-07-31T10:23:13Z" finished-at="2017-07-31T10:23:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
