@@ -1,0 +1,58 @@
+#!groovy​
+pipeline {
+
+	agent any 
+
+	tools {
+		maven 'Maven 3.5.0'
+	}
+	environment {
+		GIT_COMMITER_NAME = "GenCat Jenkins"
+		GIT_COMMITER_EMAIL = "jenkins@jenkins.id"
+		MAIL_RECEIVER = "javier.perez_gov.ext@gencat.cat"
+	}
+	stages {
+		
+		stage('Inicialització') {
+			steps {
+				sh '''
+					echo "PATH = ${PATH}"
+					echo "M2_HOME = ${M2_HOME}"
+				   '''
+			}
+		}
+        stage ('Build')  {
+        	steps {
+	    		sh "mvn clean package -Dmaven.test.failure.ignore=true"
+	   		}
+	    }
+
+	    stage ('Desplegament INT') {
+            steps {
+	            echo "-----------------> Inici: EFECTUANT DESPLEGAMENT AUTOMÀTIC A INT <-----------------"
+	            echo "-----------------> FI: EFECTUANT DESPLEGAMENT AUTOMÀTIC A INT <-----------------"
+	        }
+        }
+        stage ('Smoke Test INT') {
+         	steps {
+         		echo "Smoke test int"
+         	}
+        }
+
+    
+	} 
+    post {
+		always {
+		   junit '**/target/*.xml' 
+		   deleteDir()
+		 }
+		 success {
+		 	echo "${MAIL_RECEIVER}"
+		 	//mail to: "${MAIL_RECEIVER}", subject:"BUILD PASSA: ${currentBuild.fullDisplayName}", body "Tot ok"
+		 }
+		 failure {
+		 	echo "${MAIL_RECEIVER}"
+		 	//mail to: "${MAIL_RECEIVER}", subject:"BUILD FALLA: ${currentBuild.fullDisplayName}", body "Nope"
+		 }
+   }
+}
