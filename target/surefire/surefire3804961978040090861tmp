@@ -1,0 +1,7 @@
+#surefire
+#Thu Jul 27 14:55:28 CEST 2017
+maven.ext.class.path=/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar
+user.dir=/home/javier/Documentos/selenium_test
+localRepository=/home/javier/.m2/repository
+basedir=/home/javier/Documentos/selenium_test
+test=loadtesting.GoogleHomePageTest
